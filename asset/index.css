@@ -1,0 +1,58 @@
+body{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    
+}
+nav li{
+    display: inline;
+    margin-right: 30px;
+
+}
+nav{
+    background-color: rgb(79, 122, 250);
+    padding: 4px;
+    position: sticky;
+    top: 0;
+}
+#judul{
+    padding: 25px;
+    background-color:rgb(195, 11, 241);
+    text-align: center;
+    color: burlywood;
+}
+#welcome-section{
+    background-color: aqua;
+    text-align: center;
+    padding: 25px;
+    
+}
+#card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color:skyblue;
+    overflow: auto;
+}
+#pr{
+    float: left;
+    width: 50%;
+    
+    align-items: center;
+    background-color: rgb(61, 9, 40);
+}
+#pr2{
+    float: right;
+    width: 50%;
+}
+#judu{
+    text-align: center;
+}
+#projects{
+    background-image: url(/asset/foto.jpeg);
+
+}
