@@ -1,35 +1,114 @@
-<!DOCTYPE html>
-<html>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="asset/index.js"></script>
+<link rel="stylesheet" href="asset/index.css" >
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-<head>
-    <title>Biodata Hilmi Hermawan</title>
-    <link rel="stylesheet" href="asset/index.css" </head> <body>
-    <header>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-        <nav id="navbar">
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#project">Project</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="welcome-section">
-        <h1>Hallo... Saya Hilmi Hermawan</h1>
-        <p>Mahasiswa Teknik Informatika Universitas Lampung</p>
-    </section>
-    <section id="projects">
-        <h1 id="judu">MY PROJECT</h1>
-        <div class="project-tile" id="card">
-            <article id="pr">
-                <a href="/biodata.html"><img src="/asset/foto.jpeg" href="/biodata.html">Biodata Hilmi Hermawan</a>
-                </article>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<nav class="navbar fixed-top navbar-expand-lg  navbar-dark bg-dark ">
+    <div id="navbar" class="container">
+        <a class="navbar-brand" href="#">All About Hilmi Hermawan</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link active" href="#welcome-section">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#project">Project</a>
+                <a class="nav-link" href="#contact">Contact</a>
+
+            </div>
         </div>
-        <div id="card" class="pr2">
-            <a href="/asset/image/c1.jpeg">Foto</a>
+    </div>
+</nav>
+<section id="welcome-section">
+    <div class="jumbotron jumbotron-fluid">
+        <div id="welcome" class="container">
+
+            <h1>Hallo... Saya Hilmi Hermawan</h1>
+            <p class="lead">Mahasiswa Teknik Informatika 2018</p>
         </div>
+        <img src="https://github.com/hilmi2207/lccciomas/blob/master/asset/image/foto.jpeg?raw=true">
 
-    </section>
-    </body>
+    </div>
+</section>
+<section id="project">
+    <h1 id="header-project">MY PROJECT</h1>
+    <div class="project-tile">
+        <div class="card-deck">
 
-</html>
+            <div class="card">
+                <img src="https://github.com/hilmi2207/lccciomas/blob/master/asset/image/foto.jpeg?raw=true"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5>Biodata</h5>
+                    <p class="card-text">Nama saya adalah Hilmi Hermawan, biasa dipanggil Hilmi. Saya adalah mahasiswa
+                        Teknik Informatika 2018 di Universitas Lampung</p>
+                    <a href="https://codepen.io/hilmi2207/full/mdEvLMJ" target="blank"
+                        class="btn btn-primary">Selengkapnya</a>
+                </div>
+
+            </div>
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/hilmi2207/lccciomas/master/asset/image/1567005153206-gedung-dpr-ri.webp"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">LCC 4 Pilar</h5>
+                    <p class="card-text">Lomba Cerdas Cermat MPR (LCC MPR) merupakan salah satu ekstrakurikuler di SMAN
+                        1 Ciomas. Ekskul ini merupakan ekskul yang berbasis prestasi, dimana tujuan utamanya yaitu
+                        menjadi pemenang di LCC 4 Pilar Tingkat Nasional. Jumlah anggota dalam ekskul ini yaitu 10
+                        orang. Tidak sembarang orang bisa menjadi anggota. Calon anggota harus melewati beberapa tes,
+                        diantaranya yaitu tes menghafal, tes tulis, dan tes wawancara. </p>
+                    <a href="https://codepen.io/hilmi2207/full/eYzxbrj" target="blank"
+                        class="btn btn-primary">Selengkapnya</a>
+                </div>
+
+            </div>
+            <div class="card">
+                <img src="https://lh3.googleusercontent.com/BxmXBLzdCNHXlsc-Ms8Lxjj2OH9rwxpn5dWJbq5XWFgDgwu3gWQxrCpHKPYDhQTL4L3N8yqbq0JDlXILzyfMVrbEstePrlRmKUCGK73_VkQqrqIXOr6owGWENnoxCvxZdmQLqO6dvu-ErEFEoGmHklFamvWqk-MHm_I5P52zwyjNphiFaiyLRuaCpGw_lmk_Q-sRaSSi3ncbqwaH1vMiQTaNq9nxKreXMi4L-1mgVZMNFQM28mqbgIwcSKh4N0HORVEwFsc_SeVkkSMjS_lg-PWRyyzPDmcKvcH1MNFywOgpt9xTXiz0RsL6ObWJI44etdbOKDmLUNeuIr4qq6ii1YRUV4Zc6s03AACc0QtPAK2UUYX-o6EoOgXP4y_UujLTWTNz_Y7g8iJYdq8K2-aundLavNh-28UhbiUlvvW4XhbajhDCdRgCLmI8jSaS0EheWWhqB0QOCCKZo7zL-jMDiuyYKbDsXfLkFi0I95WAYT3T1aS8_XmXLchzqysGs1zKKt4ICpwgY4uy-hVWawwOLJks9gU46ZUcgt4zWYXH0QUiWdSsJ-wMwLN6hCZWBJ9ee1MJKvq9gGpecBMGwcbY7vWyS0SyX0nHujmujK8y12c1et-Qfn2_DloFIMwpU_cjPB_nCWvI3vASucp7hBWTE81z5jP87D5MKbVmCP5ytul44DcmE84OBlPC4lA=w330-h220-no?authuser=3"
+                    class="card-img-top" alt="...">
+                <div id="profile-link" class="card-body">
+                    <h5 class="card-title">Github</h5>
+                    <p class="card-text">Lihat Project Lainnya</p><a href="https://github.com/hilmi2207" target="blank"
+                        class="btn btn-primary">Disini</a>
+
+                </div>
+            </div>
+        </div>
+</section>
+</section>
+</div>
+<section id="contact">
+    <center>
+        <h1 class="contact-header">Contact</h1>
+    </center>
+    <div class="contact1">
+        <a class="contact2" href="https://instagram.com/hilmi2207" target="blank">
+            <img src="https://pbs.twimg.com/profile_images/1306051401236099072/nuSA8oqW.jpg" alt="">
+            <p>Instagram</p>
+        </a>
+        <a class="contact2" href="https://github.com/hilmi2207" target="blank">
+            <img src="https://img.favpng.com/22/23/23/social-media-github-computer-icons-logo-png-favpng-ari7E0gHBmTSMg57C3wKYxCMb.jpg"
+                alt="">
+            <p>Github</p>
+        </a>
+        <a class="contact2" href="https://facebook.com/hilmi.alovers" target="blank">
+            <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="">
+            <p>Facebook</p>
+        </a>
+
+    </div>
+</section>
